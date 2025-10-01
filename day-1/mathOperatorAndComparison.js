@@ -7,8 +7,6 @@ Suppose, you have 100 taka. You spent 40 taka. How much money is left, write a p
 
 You have 10 pencils. Each day you use 2 pencils. How many days can you use them?
 
-Write a program: You have 60 taka. If you spend 15 taka each day, for how many days can you spend? And how much money will be left after that, write a program to find it.
-
 Suppose you have two strings "Hello" and "World". Write a program to join these two strings together to make "HelloWorld" and display it.
 
 If you have 153 kg rice and 261 kg lentils, how many kg of rice and lentils do you have in total? Write a program to find the total.
@@ -26,10 +24,6 @@ const canUse = 2;
 const days = havePencil/canUse;
 // console.log(days);
 
-let dayCanIUse = 60/15;
-let iWillHave = 60%15;
-// console.log(dayCanIUse, iWillHave)
-
 const hello = "Hello";
 const world = "World";
 let helloWorld = hello+world;
@@ -45,4 +39,25 @@ const eachCost = 75;
 let costOfTimes = haveMOney/eachCost;
 let leftMoney = haveMOney%eachCost;
 // console.log(costOfTimes,leftMoney)
+
+
+// JAVASCRIPT COMPARISON from ph books
+
+const passedMarks = 33;
+const iGot = 45;
+let passed = iGot > passedMarks;
+// console.log(passed)
+
+const myName = "Rahim";
+const friendName = "Karim";
+// console.log(myName == friendName);
+
+const capital = 100;
+const small = "100";
+let equal = capital == small;
+let notEqual = capital === small;
+
+console.log(equal, notEqual);
+
+
 
