@@ -28,4 +28,20 @@ for(let i=1;i<51;i++){
         sum += i;
     }
 }
-console.log("the sum = ",sum)
+// console.log("the sum = ",sum)
+
+// stop at 5
+for(let i = 1; i<10; i++){
+    if(i>5){
+        break;
+    }
+    // console.log(i);
+}
+
+// print 1 to 25 numbers except the numbers which are divided by 3
+for(let i=1;i<25;i++){
+    if(i%3==0){
+        continue;
+    }
+    console.log(i);
+}
