@@ -5,5 +5,21 @@ function votar(a){
         console.log("Not Eligible");
     }
 }
+// votar(18);
 
-votar(18);
+function evenSizedString(str){
+    const size = str.length;
+    if(size%2===0){
+        return true;
+    }else{
+        return false;
+    }
+}
+const isEven = evenSizedString("Hello");
+// console.log(isEven);
+
+function giveMeLetter(name){
+    return name[0];
+}
+const myFirstLetter=giveMeLetter("Mamun");
+// console.log(myFirstLetter)
