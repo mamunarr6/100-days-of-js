@@ -23,3 +23,28 @@ function giveMeLetter(name){
 }
 const myFirstLetter=giveMeLetter("Mamun");
 // console.log(myFirstLetter)
+
+// get the sum from an array;
+function sumOfNums(array){
+    let sum = 0;
+    for(const arr of array){
+        if(arr%2==0){
+            sum = sum + arr;
+        }
+    }
+    return sum;
+}
+const result = sumOfNums([8,3,9,24,32,64]);
+// console.log(result)
+
+// get the small number from an array;
+function smallNumber(numbers){
+    let smallNum = numbers[0];
+    for(const number of numbers){
+        if(smallNum>number){
+            smallNum = number;
+        }
+    }
+    return smallNum;
+}
+// console.log(smallNumber([20,25,18,32]))
