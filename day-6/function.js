@@ -48,3 +48,28 @@ function smallNumber(numbers){
     return smallNum;
 }
 // console.log(smallNumber([20,25,18,32]))
+
+// write a function that return if your age 18 or 45 it return 18 or 45. if you age into these ages it will return the age directly;
+
+function myAge(age){
+    if(age===18){
+        return 18;
+    }else if(age===45){
+        return 45;
+    }else if(age>18 && age<45){
+        return age;
+    }else{
+        return "You are not in this group."
+    }
+}
+// console.log(myAge(77))
+
+// write that will return if your giving number smaller than 20 it will multiply by two and bigger than 20 it divide it by 20;
+function giveNumbers(numbers){
+    if(numbers<20){
+        return numbers*2;
+    }else if (numbers>=20){
+        return numbers/20;
+    }
+}
+console.log(giveNumbers(2))
