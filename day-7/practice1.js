@@ -48,4 +48,18 @@ function incomeToTax(income){
     const taxAmount = (income*taxRate)/100;
     return taxAmount;
 }
-console.log((incomeToTax(240000)))
+// console.log((incomeToTax(240000)))
+function deliveryCost(kg){
+    let cost = 0;
+    if(kg<=10){
+        cost = 100;
+    }else if(kg<=20){
+        cost = 300;
+    }else if(kg<=50){
+        cost =1000;
+    }else{
+        cost = kg*100;
+    }
+    return cost;
+}
+// console.log(deliveryCost(60))
