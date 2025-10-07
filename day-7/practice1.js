@@ -33,3 +33,19 @@ function hourToMinutes(hour){
     return minutes + " min";
 }
 // console.log(hourToMinutes(3.5));
+
+function incomeToTax(income){
+    let taxRate = 0;
+    if(income<=50000){
+        taxRate = 10;
+    }else if(income<=100000){
+        taxRate = 20;
+    }else if(income<=200000){
+        taxRate = 30;
+    }else{
+       taxRate = 40;
+    }
+    const taxAmount = (income*taxRate)/100;
+    return taxAmount;
+}
+console.log((incomeToTax(240000)))
