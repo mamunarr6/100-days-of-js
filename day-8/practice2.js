@@ -19,7 +19,33 @@ function averageOfOdd(numbers){
             i++
         }
     }
+    if(i===0){
+        return 0;
+    }
     const average = sum/i;
     return average;
 }
-console.log(averageOfOdd([5,8,9,11,3,4,5,12,]))
+// console.log(averageOfOdd([2,4,6,8]))
+
+function averageOfOdd2(numbers){
+    let oddNumbers = [];
+    for(const number of numbers){
+        if(number%2===1){
+            oddNumbers.push(number);
+        }
+    }
+    if(oddNumbers.length === 0){
+        return 0;
+    }
+
+    let sum = 0;
+    for(const odd of oddNumbers){
+        sum += odd;
+    }
+
+    let count = oddNumbers.length;
+    const avrg = sum/count
+    return avrg ;
+}
+const average = averageOfOdd2([2,4,6,8]);
+// console.log(average)
