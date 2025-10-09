@@ -20,4 +20,15 @@ function removeDuplicate(duplicates){
 }
 const students = ['abul', 'babul', 'cabul', 'abul', 'babul', 'dabul'];
 const numbers = [1, 5, 61, 5, 87, 7, 5, 81, 61];
-console.log(removeDuplicate(numbers))
+// console.log(removeDuplicate(numbers))
+
+// Swaping value
+let a = 5;
+let b = 10;
+
+const temp = a;
+
+a = b;
+b = temp;
+
+// console.log(a,b);
