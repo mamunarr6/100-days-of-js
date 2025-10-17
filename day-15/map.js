@@ -5,4 +5,13 @@ const getOneByOne = (numbers)=>{
         console.log(e);
     });
 }
-getOneByOne(array)
+// getOneByOne(array)
+
+const friends = ["Tom","Harry","Sam","Jack","Henry"];
+
+friends.map(friend=>{
+   const firstLetter = friend[0]
+   if(firstLetter=== "H"){
+    console.log(friend)
+   }
+})
