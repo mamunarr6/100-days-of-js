@@ -7,5 +7,8 @@ const products = [
 
 
 const total = products.reduce((accumolator, current) => accumolator + current.price, 0);
-console.log(total);
+// console.log(total);
 
+const numbers = [10,20,30,40,50];
+const highestValue = numbers.reduce((highest,current)=> (highest<current?highest=current : highest),0);
+console.log(highestValue)
