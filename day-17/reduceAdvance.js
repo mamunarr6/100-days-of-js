@@ -11,4 +11,4 @@ const total = products.reduce((accumolator, current) => accumolator + current.pr
 
 const numbers = [10,20,30,40,50];
 const highestValue = numbers.reduce((highest,current)=> (highest<current?highest=current : highest),0);
-console.log(highestValue)
+// console.log(highestValue)
