@@ -11,4 +11,18 @@ const friends = [
     {name:"Diba",age:21}
 ]
 const sortedFriendsByAge=friends.sort((a,b)=>a.age-b.age);
-console.log(sortedFriendsByAge)
+// console.log(sortedFriendsByAge)
+
+// const sortedFriendsByName=friends.sort((a,b)=>a.name.localeCompare(b.name));
+
+//  OR 
+
+const sortedFriendsByName = friends.sort((a,b)=>{
+    let nameA = a.name.toLocaleLowerCase();
+    let nameB = b.name.toLocaleLowerCase();
+
+    if(nameA<nameB){return -1};
+    if(nameA>nameB){return 1};
+    return 0;
+})
+console.log(sortedFriendsByName)
