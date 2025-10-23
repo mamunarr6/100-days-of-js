@@ -22,3 +22,12 @@ const cars =["Tesla","BMW","Toyota","Ford"];
 const teslBmw = cars.slice(0,2);
 // console.log(teslBmw);
 // console.log(cars)
+
+const movieList = ["Inception","Titanic","Joker","Avatar","Intersteller"];
+const splicedMovieList = movieList.splice(2,2,"Batman","Superman");
+// console.log(splicedMovieList);
+// console.log(movieList);
+const players = ["Messi","Ronaldo","Neymar","Mbappe"];
+const splicedPlayers = players.splice(3,1,"Holland");
+// console.log(splicedPlayers);
+// console.log(players);
