@@ -36,4 +36,9 @@ const str2 = "pop";
 const str3 = "shift";
 const str4 = "unshift";
 const useConcat = str1.concat(" ",str2," ",str3," ",str4);
-console.log(useConcat)
+// console.log(useConcat)
+
+const string2 = "Hello JavaScript Developers";
+// console.log(string2.slice(6,16));
+const string3 = "Code more learn more";
+// console.log(string3.substring(10,15));
