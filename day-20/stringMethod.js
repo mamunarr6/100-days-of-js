@@ -27,3 +27,13 @@ const arrayFriends = ["Raju","Rana","Hasan","Kabir","Mahi"];
 const makeString = makeArray.join(", ");
 // console.log("String to Array: ", makeArray);
 // console.log("Array to String: ", makeString)
+
+const string = " console log debug ";
+// console.log(string);
+// console.log(string.trim());
+const str1 = "push";
+const str2 = "pop";
+const str3 = "shift";
+const str4 = "unshift";
+const useConcat = str1.concat(" ",str2," ",str3," ",str4);
+console.log(useConcat)
