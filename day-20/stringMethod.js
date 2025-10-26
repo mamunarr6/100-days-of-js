@@ -15,9 +15,15 @@ const subject = 'Chemistry';
 const book = 'chemistry';
 
 if (subject === book) {
-console.log('i am reading book');
+// console.log('i am reading book');
 } else {
-console.log('hudai prista ultai');
+// console.log('hudai prista ultai');
 }
-
-
+const friends = "Raju,Rana,Hasan,Kabir,Mahi";
+const makeArray = friends.split(",");
+// console.log(friends.split(","));
+const arrayFriends = ["Raju","Rana","Hasan","Kabir","Mahi"];
+// console.log(arrayFriends.join(","));
+const makeString = makeArray.join(", ");
+// console.log("String to Array: ", makeArray);
+// console.log("Array to String: ", makeString)
