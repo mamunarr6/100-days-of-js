@@ -11,3 +11,6 @@ let updateLanguage = language;
 updateLanguage.key = "location";
 updateLanguage.value = "Browser";
 console.log("language: ",language, " updateLanguage: ",updateLanguage);
+
+
+const rNext = "  I am starting the Reactive Accelerator course . So I don't think I can't regularly continue this book but I will read and practice it insha Allah. Now I will concentrate on the Reactive Accelerator course. "
